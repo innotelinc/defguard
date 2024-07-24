@@ -21,8 +21,8 @@ COMPOSE_FILE="docker-compose.yaml"
 ENV_FILE=".env"
 LOG_FILE=$(mktemp setup.log.XXXXXX)
 
-BASE_COMPOSE_FILE_URL="https://raw.githubusercontent.com/DefGuard/deployment/main/docker-compose/docker-compose.yaml"
-BASE_ENV_FILE_URL="https://raw.githubusercontent.com/DefGuard/deployment/main/docker-compose/.env.template"
+BASE_COMPOSE_FILE_URL="https://raw.githubusercontent.com/innotelinc/defguard/main/docker-compose/docker-compose.yaml"
+BASE_ENV_FILE_URL="https://raw.githubusercontent.com/innotelinc/defguard/main/docker-compose/.env.template"
 
 CORE_IMAGE_TAG="${CORE_IMAGE_TAG:-latest}"
 GATEWAY_IMAGE_TAG="${GATEWAY_IMAGE_TAG:-latest}"
